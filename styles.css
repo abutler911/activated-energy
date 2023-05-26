@@ -1,0 +1,78 @@
+body, h1, h2, h3, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bg-primary {
+    background-color: #9C27B0;
+    color: #ffffff;
+}
+
+.display-4 {
+    color: #4A148C;
+}
+
+#bg-light {
+    background-color: #F3E5F5;
+}
+
+.footer-primary {
+    background-color: #4A148C;
+    color: #ffffff;
+}
+
+.lead {
+    color: #000;
+}
+
+.btn-axio {
+    background-color: #9C27B0;
+    border-color: #9C27B0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-axio:hover {
+    background-color: #9C27B0;
+    color: #ffffff;
+}
+
+.row {
+    padding: 0 15px;
+    /* Adds 15px padding on the left and right of the row */
+}
+
+.section-container {
+    background-color: #F3E5F5;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 500px;
+    border: 1px solid purple;
+    margin-bottom: 50px;
+    /* Add space below each container */
+}
+
+
+.section-container h3 {
+    color: #4A148C;
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.section-container p {
+    font-size: 1em;
+    color: #6A1B9A;
+    line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+    .section-container {
+        margin-bottom: 50px;
+        /* Add space below each box on larger screens */
+    }
+}
