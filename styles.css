@@ -79,8 +79,12 @@ body, h1, h2, h3, p {
     padding: 20px;
     min-height: 380px;
     border: 1px solid purple;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     /* Add space below each container */
+}
+
+img {
+    margin-bottom: 20px;
 }
 
 
