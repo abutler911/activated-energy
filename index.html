@@ -133,37 +133,53 @@
           <!-- Ingredient A -->
           <div class="col-lg-4">
             <div class="section-container">
-              <img
-                src="/images/b-vitamins.jpg"
-                alt="Ingredient A"
-                class="img-fluid"
-              />
+              <img src="/images/b-vitamins.jpg" alt="Ingredient A"
+              class="img-fluid ingredient-img" /* Adding new class */ />
               <h3>B-Vitamins</h3>
             </div>
           </div>
           <!-- Ingredient B -->
           <div class="col-lg-4">
             <div class="section-container">
-              <img
-                src="/images/l-theanine.jpg"
-                alt="Ingredient B"
-                class="img-fluid"
-              />
+              <img src="/images/l-theanine.jpg" alt="Ingredient B"
+              class="img-fluid ingredient-img" /* Adding new class */ />
               <h3>L-Theanine</h3>
             </div>
           </div>
           <!-- Ingredient C -->
           <div class="col-lg-4">
             <div class="section-container">
-              <img
-                src="/images/dmae.jpg"
-                alt="Ingredient C"
-                class="img-fluid"
-              />
+              <img src="/images/dmae.jpg" alt="Ingredient C" class="img-fluid
+              ingredient-img" /* Adding new class */ />
               <h3>DMAE</h3>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="py-5" id="contact-section">
+      <div class="container">
+        <h2 class="display-4 text-center">Request More Information</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-axio">Submit</button>
+        </form>
       </div>
     </section>
 

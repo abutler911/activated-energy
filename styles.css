@@ -35,6 +35,18 @@ body, h1, h2, h3, p {
     text-decoration: none;
 }
 
+.ingredient-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Making the images circular */
+    border: 3px solid #ff6347;
+    /* Adding a border */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Adding a shadow */
+}
+
 .btn-axio:hover {
     background-color: #9C27B0;
     color: #ffffff;
