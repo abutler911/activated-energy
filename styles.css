@@ -2,8 +2,17 @@ body, h1, h2, h3, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.title {
+    font-size: 5em;
+}
+
+.intro {
+    line-height: 1.7;
+    font-size: 1.3em;
+}
+
 #bg-primary {
-    background-color: #9C27B0;
+    background-color: rgba(156, 39, 176, 0.4);
     color: #ffffff;
 }
 
@@ -39,12 +48,13 @@ body, h1, h2, h3, p {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 50%;
-    /* Making the images circular */
-    border: 3px solid #ff6347;
-    /* Adding a border */
+    border-radius: 10%;
+    border: 1px solid #9517ac;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* Adding a shadow */
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
 
 .btn-axio:hover {
