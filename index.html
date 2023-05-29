@@ -28,14 +28,16 @@
     />
   </head>
   <body>
-    <header class="text-center py-5" id="bg-primary">
-      <h1 class="title">Axio: The Healthy Energy Drink</h1>
-      <p class="lead">Revolutionizing the way you energize your day</p>
+    <header class="text-center" id="bg-primary">
+      <div class="overlay">
+        <h1 class="title">Axio: The Healthy Energy Drink</h1>
+        <p id="lead">Revolutionizing the way you energize your day</p>
+      </div>
     </header>
 
-    <section class="py-5">
+    <section>
       <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
           <div class="col-lg-6">
             <img
               src="/images/axio_dragonfruit.jpeg"
@@ -45,32 +47,25 @@
           </div>
           <div class="col-lg-6">
             <h2 class="display-4">
-              <span class="bold">Hey There!</span>
-              <p>Have You Heard About Axio?</p>
+              <span class="bold">Hey there,</span>
+              <p>ever met Axio?</p>
             </h2>
             <p class="intro">
-              Axio is more than just a brain performance product. It's a breath
-              of fresh air for your mind, a power booster that doesn't leave you
-              crawling on all fours once it wears off - unlike those sugary
-              drinks and snacks we've all had our fair share of. Axio and its
-              decaf counterpart were crafted with care, designed to light up
-              your brain's power reserves and elevate your concentration,
-              without leaving you shaking like a leaf.
+              It's not just your typical brain performance booster. Think of it
+              as a pep rally for your brain, minus the energy crash. Wave
+              goodbye to shaky jitters and hello to Axio - your secret weapon
+              against the grind.
             </p>
             <p class="intro">
-              The secret behind Axio's magic is a thoughtfully concocted blend
-              of ingredients. Handpicked for their energy-boosting properties,
-              these ingredients, including vital vitamins, essential minerals,
-              and healthful phytonutrients, work together to support your body's
-              energy metabolism. They fill you up with energy, fine-tune your
-              focus, and enhance your concentration - all without the
-              stomach-churning jitters.
+              What makes Axio the real deal? It's all in our custom mix of
+              energy-boosting ingredients. Packed with vitamins, minerals, and
+              nutrients, it fills you with energy and sharpens your focus, all
+              without the sugar and calorie guilt-trip.
             </p>
             <p class="intro">
-              And here's the kicker - Axio does all this without burdening you
-              with those unnecessary calories and sugar! With Axio in your
-              corner, you'll start experiencing tangible benefits like better
-              concentration and sharper focus from the get-go.
+              But don't mistake Axio for just a quick fix. Nope! It's in for the
+              long game, tackling your stress and keeping your brain game
+              strong.
             </p>
             <p class="intro">
               But Axio isn't just a quick fix for your energy and concentration
@@ -81,22 +76,34 @@
               that stress dial!
             </p>
             <p class="intro">
-              So, say goodbye to that wild rollercoaster ride of sugar highs and
-              lows, and welcome Axio into your life. With Axio, you're choosing
-              a partner that supports your energy metabolism and showers you
-              with lasting power, refined concentration, and enhanced focus. And
-              the best part? No more jittery shakes. How's that for a change?
+              So, ready to ditch the sugar rush ride and power up with Axio?
+              You're signing up for long-lasting energy, sharper focus, and zero
+              jittery shakes. How's that for a game-changer?
             </p>
           </div>
         </div>
       </div>
     </section>
+    <div class="svg-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#800080"
+          fill-opacity="1"
+          d="M0,96L40,122.7C80,149,160,203,240,218.7C320,235,400,213,480,202.7C560,192,640,192,720,213.3C800,235,880,277,960,266.7C1040,256,1120,192,1200,186.7C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
 
-    <section class="py-5">
+    <section class="py-5 product-info">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="section-container">
+            <div class="energy-section-container">
+              <img
+                src="images/icons8-energy-ios-16/icons8-energy-100.png"
+                class="icon"
+                alt=""
+              />
               <h3>More Energy</h3>
               <p class="content">
                 Craving more energy, focus, and concentration in this fast-paced
@@ -110,7 +117,12 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="section-container">
+            <div class="convenience-section-container">
+              <img
+                src="images/icons8-time-ios-16/icons8-time-100.png"
+                class="icon"
+                alt=""
+              />
               <h3>Convenience</h3>
               <p class="content">
                 Store shelves are brimming with sugar-laden drinks and processed
@@ -124,7 +136,12 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="section-container">
+            <div class="fuel-section-container">
+              <img
+                src="images/icons8-fuel-ios-16/icons8-fuel-100.png"
+                class="icon"
+                alt=""
+              />
               <h3>Smart Fuel</h3>
               <p class="content">
                 Say goodbye to sugar-filled drinks and calorie-heavy snacks.
@@ -240,7 +257,9 @@
     </section>
     <section class="py-5" id="contact-section">
       <div class="container">
-        <h2 class="display-4 text-center">Request More Information</h2>
+        <h2 class="display-4 text-center contact-title">
+          Request More Information
+        </h2>
         <form>
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
@@ -259,7 +278,7 @@
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-axio">Submit</button>
+          <button type="submit" class="btn-axio">Submit</button>
         </form>
       </div>
     </section>
