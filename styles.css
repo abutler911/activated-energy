@@ -21,11 +21,7 @@ header {
     position: relative;
 }
 
-@media (max-width: 700px) {
-    #bg-primary {
-        background-position: 15% center;
-    }
-}
+
 
 .overlay {
     background: rgba(0, 0, 0, 0.5);
@@ -116,7 +112,7 @@ header {
 
 .subtitle-dark {
     color: #000;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #ingredients-section {
@@ -139,7 +135,6 @@ header {
 
 .row {
     padding: 0 15px;
-    /* Adds 15px padding on the left and right of the row */
 }
 
 .product-info {
@@ -153,7 +148,6 @@ header {
     min-height: 380px;
     border: 2px solid #800080;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -168,7 +162,6 @@ header {
     min-height: 380px;
     border: 2px solid #800080;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -183,7 +176,6 @@ header {
     min-height: 380px;
     border: 2px solid #800080;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -191,13 +183,9 @@ header {
     align-items: center;
 }
 
-
-
-
 img {
     margin-bottom: 20px;
 }
-
 
 .section-container h3 {
     color: #4A148C;
@@ -256,16 +244,12 @@ img {
     padding: 10px;
     font-size: 1.5em;
     font-weight: 700;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    /* margin-top: 20px; */
+    border-radius: 10px;
+    margin-top: 20px;
     text-decoration: none;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
-
-
 
 .btn-axio:hover {
     background-color: #660066;
@@ -277,7 +261,11 @@ img {
     padding: 10px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 700px) {
+    #bg-primary {
+        background-position: 15% center;
+    }
+
     .section-container {
         margin-bottom: 50px;
 
