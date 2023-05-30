@@ -9,18 +9,20 @@ header, section {
 
 header {
     padding-top: 30px;
-    height: 20vh;
+    height: 30vh;
 }
 
+
+
 #bg-primary {
-    background-image: url('/images/axio.jpg');
+    background-image: url('/images/axio-banner.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     position: absolute;
     top: 0;
@@ -33,9 +35,16 @@ header {
     flex-direction: column;
 }
 
+.glow {
+    box-shadow: 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de;
+}
+
 .title {
+    color: #000;
     font-size: 3.5em;
+    font-weight: 700;
     padding-left: 20px;
+    margin-top: 55px;
 }
 
 #lead {
@@ -49,15 +58,26 @@ header {
     font-weight: 700;
 }
 
+#product-introduction {
+    background-color: rgba(79, 0, 82, 0.3);
+    margin-bottom: 0;
+}
 
+.main-image {
+    background-color: transparent;
+}
 
 .intro {
     line-height: 1.7;
     font-size: 1.3em;
+    text-align: justify;
 }
 
 .content {
     text-align: justify;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 500;
 }
 
 
@@ -71,20 +91,35 @@ header {
 }
 
 .footer-primary {
-    background-color: #4A148C;
+    background-color: #800080;
     color: #ffffff;
 }
 
+.subtitle {
+    color: #fff;
+    font-size: 4em;
+}
 
+.subtitle-dark {
+    color: #000;
+    font-size: 4em;
+}
+
+#ingredients-section {
+    background-color: #800080;
+}
 
 .ingredient-img {
-    width: 100%;
+    width: 70%;
     height: auto;
     object-fit: cover;
     border-radius: 40%/15% 85% 55% 75%;
-    border: 1px solid #9517ac;
+    margin-left: 15%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    -webkit-border-radius: 40%/15% 85% 55% 75%;
+    -moz-border-radius: 40%/15% 85% 55% 75%;
+    -ms-border-radius: 40%/15% 85% 55% 75%;
+    -o-border-radius: 40%/15% 85% 55% 75%;
 }
 
 
@@ -169,8 +204,9 @@ img {
     position: relative;
     width: 100%;
     padding-bottom: calc(320 / 1440 * 100%);
-    vertical-align: middle;
     overflow: hidden;
+    background-color: rgba(79, 0, 82, 0.3);
+
 }
 
 .svg-container svg {
@@ -191,6 +227,12 @@ img {
 
 .form-control {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#name, #email, #message {
+    background-color: rgba(226, 226, 226, 0.7);
+    border: none;
 }
 
 .btn-axio {
@@ -200,11 +242,13 @@ img {
     padding: 10px;
     font-size: 1.5em;
     font-weight: 700;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* margin-top: 20px; */
     text-decoration: none;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 
@@ -214,9 +258,14 @@ img {
     color: white;
 }
 
+.disclosure {
+    font-size: 0.6em;
+    padding: 10px;
+}
+
 @media (min-width: 992px) {
     .section-container {
         margin-bottom: 50px;
-        /* Add space below each box on larger screens */
+
     }
 }
