@@ -9,7 +9,7 @@ header, section {
 
 header {
     padding-top: 30px;
-    height: 30vh;
+    height: 40vh;
 }
 
 
@@ -21,8 +21,14 @@ header {
     position: relative;
 }
 
+@media (max-width: 700px) {
+    #bg-primary {
+        background-position: 15% center;
+    }
+}
+
 .overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     position: absolute;
     top: 0;
@@ -40,9 +46,9 @@ header {
 }
 
 .title {
-    color: #000;
+    color: #fff;
     font-size: 3.5em;
-    font-weight: 700;
+    font-weight: 900;
     padding-left: 20px;
     margin-top: 55px;
 }
@@ -54,8 +60,13 @@ header {
 }
 
 .bold {
-    font-size: 1.2em;
+
+    font-size: 1.8em;
     font-weight: 700;
+}
+
+.intro-line {
+    font-size: 1.4em;
 }
 
 #product-introduction {
